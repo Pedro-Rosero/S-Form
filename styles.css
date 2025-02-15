@@ -1,0 +1,101 @@
+html {
+    background-image: url(https://cdn.pixabay.com/photo/2018/08/12/16/51/shooting-star-3601173_1280.jpg); 
+  
+
+}
+
+body {
+    height: 100vh;
+    padding: 20px;
+    margin: auto;
+    color: hsla(47, 100%, 70%, 0.9);
+    font-family: 'Macondo';
+    font-size: 20px;
+    max-width: 500px;
+    min-width: 300px;
+    background-image: url(https://cdn.pixabay.com/photo/2018/08/12/16/51/shooting-star-3601173_1280.jpg); 
+  }
+   
+  h1  {
+    font-size: 60px;
+    text-align: center;
+  }
+  p {
+    font-size: 24px;
+    text-align: center;
+    margin-top: -26px;
+  }
+  
+  fieldset {
+     
+    border: none;
+    border-bottom: 0.1em solid;
+    padding: 20px 15px;
+  }
+  
+  form { 
+     padding-bottom: 2em;  
+  }
+   fieldset div {
+    padding-bottom: 15px;
+    padding-top: 5px;
+    max-width: 480px;
+    display: block;
+    margin: auto; 
+  
+   }
+   label {
+    display: inline;
+    align-items: center;  
+  }
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  input, textarea { 
+    width: 500px;
+    text-align: center; 
+  }
+  
+  .inline {
+      display: inline;
+      width: 30px;
+  }
+  .weapon {
+    display: inline;
+    max-width: 20px; 
+  }
+  .score {
+    display: block;
+    max-width: 60px;
+  }
+  .time-playing {
+    display: block;
+    max-width: 100px;
+  }
+  input[type="radio"] {
+    accent-color: hsla(5, 90%, 30%);
+  }
+  input[type="checkbox"] {
+    accent-color: hsla(5, 90%, 30%);
+  }
+  input[type="submit"] {
+    display: block;
+    width: 30%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 15px;
+    background-color: hsla(40, 70%, 60%);
+    border-color: orange;
+    min-width: 60px;
+  }
+    .cat {
+    padding: 2em 7em;
+    }
+  
+    a {
+      color: hsla(43, 100%, 47%, 0.9);
+    }
+    a:hover {
+      color: hsla(59, 100%, 47%, 0.9);
+    }
+  

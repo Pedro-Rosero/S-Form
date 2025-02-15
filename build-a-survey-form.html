@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Souls Survey Form</title>
+    <link rel="stylesheet" href="styles.css"></link>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1 id="title">Souls Survey Form</h1>
+      <p id="description"><em>May the lord judge your soul...</em> </p> 
+    <form id="survey-form" method="post" action='https://register-demo.freecodecamp.org'>
+    <fieldset>
+      <div>
+      <label id="name-label">Username<input type="text" id="name" placeholder="Enter your username" required ></label>
+      </div>
+      <div>
+      <label id="email-label">Email<input type="email" id="email" placeholder="Your email" required ></label>
+      </div>
+      <div>
+      <label id="number-label">Age<input type="number" min="14" max="100" id="number" placeholder="Age" required /></label>
+      </div>
+      <div>
+       <label>What is your favorite character?
+          <select id="dropdown">
+            <option value="-">(select a character)</option>
+            <option value="-1">Max</option>
+            <option value="-2">Daniel</option>
+            <option value="-3">Rick</option>
+            <option value="-4">Jade</option>
+            <option value="-5">Other</option>
+          </select>
+       </label>
+      </div>
+    </fieldset> 
+  
+      <fieldset>
+        <legend>What device do you use to play Souls?</legend>
+       <label for="mobile"> <input class="inline" id="mobile" type="radio" name="device" value="mobile" checked/>Mobile</label>
+       <label for="computer"> <input class="inline" id="computer" type="radio" name="device" value="computer" />Computer</label>
+       <label for="other"> <input class="inline" id="other" type="radio" name="device" value="other" />Other</label>
+      </fieldset>
+      
+      <fieldset>
+        <div>
+        <label for="time-playing"> How much time have you been playing?<input class="time-playing" id="time-playing" type="text" placeholder="Ex: 3 months" required> </label>
+        </div>
+        <div><label>What is your favorite weapon?</label>
+        </div>
+        <div>
+          <label> Sword
+            <input class="weapon" type="checkbox" value="sword" checked>
+          </label> 
+          <label> Bow
+            <input class="weapon" type="checkbox" value="bow" >
+          </label> 
+          <label> Axe
+            <input class="weapon" type="checkbox" value="Axe">
+          </label> 
+          <label> Enchanted book
+            <input class="weapon" type="checkbox" value="enchanted-book">
+          </label> 
+          <label> Other
+            <input class="weapon" type="checkbox" value="other">
+            </label>
+        </div>
+        <div>
+        <label for="score">What have been your highest score? <input class="score" id="score" type="number" min="50" max="10000" value="score" placeholder="100 pt"  required/> </label>
+         </div>
+         <div>
+        <label for="experience"> What would you like us to add in the next version?<textarea id="experience" value="experience" type="text" rows="4" cols="30" placeholder="A new magic potion..."></textarea>
+        </label>
+         </div>
+      </fieldset>
+      <fieldset>
+    <label for="dropdown">How have been your experience so far?
+      <select id="dropdown" required>
+        <option value="">(select an option)</option>
+        <option value="1">Fenomenal!</option>
+        <option value="2">Great</option>
+        <option value="3">Good</option>
+        <option value="4">Normal</option>
+        <option value="5">Bad</option>
+        <option value="6">Terrible</option>
+            </label>
+      </select>
+      </fieldset>
+      <div>
+      <label>
+        <input type="submit" id="submit" />
+      </label> 
+      </div>        
+      <div>
+      <label class="cat">Click <a href="https://i0.wp.com/thediscerningcat.com/wp-content/uploads/2021/02/tabby-cat-wearing-sunglasses.jpg" target="_blank"> here</a> to see a cool cat</label>
+      </div>
+    </form> 
+  </body>
+</html>
+
+
+
+
+
